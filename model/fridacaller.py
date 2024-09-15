@@ -1,6 +1,12 @@
-'''
 import requests
 
 def callfrida(prompt):
-    requests.post(url, data, json, args)
-    '''
+    rjson = {
+        "inputs" : str(prompt),
+        "parameters": {
+            "max_new_tokens": 100
+        }, "stream" : False
+    }
+    res = requests.post("https://fridaplatform.com/generate", json = rjson)
+    print(res)
+    
