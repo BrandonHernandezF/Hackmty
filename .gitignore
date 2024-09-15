@@ -2,3 +2,4 @@
 model/llama_cpp_python-0.2.90-cp311-cp311-win_amd64.whl
 model/llama_cpp_python-0.2.90-cp312-cp312-win_amd64.whl
 model/openbiollm-llama3-8b.Q8_0.gguf
+model/openbiollm-llama3-8b.Q8_0.zip

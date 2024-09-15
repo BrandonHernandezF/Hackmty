@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F22C3FE12C96540E001BDC49 /* ChekateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C3FE02C96540E001BDC49 /* ChekateApp.swift */; };
+		F22C3FE32C96540E001BDC49 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C3FE22C96540E001BDC49 /* RootView.swift */; };
+		F22C3FE52C96540F001BDC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22C3FE42C96540F001BDC49 /* Assets.xcassets */; };
+		F22C3FE92C96540F001BDC49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22C3FE82C96540F001BDC49 /* Preview Assets.xcassets */; };
+		F22C3FF12C965741001BDC49 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C3FF02C965741001BDC49 /* HomeScreen.swift */; };
+		F22C3FF32C96588F001BDC49 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C3FF22C96588F001BDC49 /* AppRouter.swift */; };
+		F22C3FF52C9660F0001BDC49 /* DiagnosticScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C3FF42C9660F0001BDC49 /* DiagnosticScreen.swift */; };
+		F22C3FF92C9683E3001BDC49 /* PaddingModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C3FF82C9683E3001BDC49 /* PaddingModifiers.swift */; };
+		F22C3FFB2C968582001BDC49 /* FontSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C3FFA2C968582001BDC49 /* FontSizes.swift */; };
+		F22C3FFD2C9689C2001BDC49 /* AppSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C3FFC2C9689C2001BDC49 /* AppSection.swift */; };
+		F22C3FFF2C968B03001BDC49 /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C3FFE2C968B03001BDC49 /* CardModifier.swift */; };
+		F22C40012C968B37001BDC49 /* RezisableIconModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C40002C968B37001BDC49 /* RezisableIconModifier.swift */; };
+		F22C40032C968B55001BDC49 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C40022C968B55001BDC49 /* SectionHeader.swift */; };
+		F22C40082C96AA2B001BDC49 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C40072C96AA2B001BDC49 /* SpeechRecognizer.swift */; };
+		F26121052C96C4A3001A704F /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26121042C96C4A3001A704F /* NetworkCall.swift */; };
+		F26121072C96C4CC001A704F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26121062C96C4CC001A704F /* NetworkError.swift */; };
+		F26121092C96C51C001A704F /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26121082C96C51C001A704F /* NetworkClient.swift */; };
+		F261210B2C96C66D001A704F /* DiagnosePromptCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F261210A2C96C66D001A704F /* DiagnosePromptCall.swift */; };
+		F261210D2C9706BD001A704F /* ResultsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F261210C2C9706BD001A704F /* ResultsScreen.swift */; };
+		F2644D7B2C9711AC008CA9FF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F2644D7A2C9711AC008CA9FF /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2644D7F2C9711AF008CA9FF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F22C3FDD2C96540E001BDC49 /* Chekate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chekate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22C3FE02C96540E001BDC49 /* ChekateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChekateApp.swift; sourceTree = "<group>"; };
+		F22C3FE22C96540E001BDC49 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F22C3FE42C96540F001BDC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F22C3FE62C96540F001BDC49 /* Chekate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chekate.entitlements; sourceTree = "<group>"; };
+		F22C3FE82C96540F001BDC49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F22C3FF02C965741001BDC49 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		F22C3FF22C96588F001BDC49 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		F22C3FF42C9660F0001BDC49 /* DiagnosticScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticScreen.swift; sourceTree = "<group>"; };
+		F22C3FF82C9683E3001BDC49 /* PaddingModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingModifiers.swift; sourceTree = "<group>"; };
+		F22C3FFA2C968582001BDC49 /* FontSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizes.swift; sourceTree = "<group>"; };
+		F22C3FFC2C9689C2001BDC49 /* AppSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSection.swift; sourceTree = "<group>"; };
+		F22C3FFE2C968B03001BDC49 /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
+		F22C40002C968B37001BDC49 /* RezisableIconModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RezisableIconModifier.swift; sourceTree = "<group>"; };
+		F22C40022C968B55001BDC49 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		F22C40072C96AA2B001BDC49 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		F26121042C96C4A3001A704F /* NetworkCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCall.swift; sourceTree = "<group>"; };
+		F26121062C96C4CC001A704F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		F26121082C96C51C001A704F /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		F261210A2C96C66D001A704F /* DiagnosePromptCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosePromptCall.swift; sourceTree = "<group>"; };
+		F261210C2C9706BD001A704F /* ResultsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F22C3FDA2C96540E001BDC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2644D7B2C9711AC008CA9FF /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F22C3FD42C96540E001BDC49 = {
+			isa = PBXGroup;
+			children = (
+				F22C3FDF2C96540E001BDC49 /* Chekate */,
+				F22C3FDE2C96540E001BDC49 /* Products */,
+				F2644D792C9711AC008CA9FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F22C3FDE2C96540E001BDC49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F22C3FDD2C96540E001BDC49 /* Chekate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F22C3FDF2C96540E001BDC49 /* Chekate */ = {
+			isa = PBXGroup;
+			children = (
+				F26121032C96C49B001A704F /* Network */,
+				F22C40062C96AA1B001BDC49 /* SpeechToText */,
+				F22C3FF62C9683C7001BDC49 /* Utils */,
+				F22C3FEF2C9656C1001BDC49 /* Screens */,
+				F22C3FE02C96540E001BDC49 /* ChekateApp.swift */,
+				F22C3FE22C96540E001BDC49 /* RootView.swift */,
+				F22C3FF22C96588F001BDC49 /* AppRouter.swift */,
+				F22C3FE42C96540F001BDC49 /* Assets.xcassets */,
+				F22C3FE62C96540F001BDC49 /* Chekate.entitlements */,
+				F22C3FE72C96540F001BDC49 /* Preview Content */,
+			);
+			path = Chekate;
+			sourceTree = "<group>";
+		};
+		F22C3FE72C96540F001BDC49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F22C3FE82C96540F001BDC49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F22C3FEF2C9656C1001BDC49 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F22C3FF02C965741001BDC49 /* HomeScreen.swift */,
+				F22C3FF42C9660F0001BDC49 /* DiagnosticScreen.swift */,
+				F261210C2C9706BD001A704F /* ResultsScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F22C3FF62C9683C7001BDC49 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F22C3FF82C9683E3001BDC49 /* PaddingModifiers.swift */,
+				F22C3FFA2C968582001BDC49 /* FontSizes.swift */,
+				F22C3FFC2C9689C2001BDC49 /* AppSection.swift */,
+				F22C3FFE2C968B03001BDC49 /* CardModifier.swift */,
+				F22C40002C968B37001BDC49 /* RezisableIconModifier.swift */,
+				F22C40022C968B55001BDC49 /* SectionHeader.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F22C40062C96AA1B001BDC49 /* SpeechToText */ = {
+			isa = PBXGroup;
+			children = (
+				F22C40072C96AA2B001BDC49 /* SpeechRecognizer.swift */,
+			);
+			path = SpeechToText;
+			sourceTree = "<group>";
+		};
+		F26121032C96C49B001A704F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F26121042C96C4A3001A704F /* NetworkCall.swift */,
+				F26121062C96C4CC001A704F /* NetworkError.swift */,
+				F26121082C96C51C001A704F /* NetworkClient.swift */,
+				F261210A2C96C66D001A704F /* DiagnosePromptCall.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F2644D792C9711AC008CA9FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F22C3FDC2C96540E001BDC49 /* Chekate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22C3FEC2C96540F001BDC49 /* Build configuration list for PBXNativeTarget "Chekate" */;
+			buildPhases = (
+				F22C3FD92C96540E001BDC49 /* Sources */,
+				F22C3FDA2C96540E001BDC49 /* Frameworks */,
+				F22C3FDB2C96540E001BDC49 /* Resources */,
+				F2644D7F2C9711AF008CA9FF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chekate;
+			packageProductDependencies = (
+				F2644D7A2C9711AC008CA9FF /* Alamofire */,
+			);
+			productName = Chekate;
+			productReference = F22C3FDD2C96540E001BDC49 /* Chekate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F22C3FD52C96540E001BDC49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F22C3FDC2C96540E001BDC49 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F22C3FD82C96540E001BDC49 /* Build configuration list for PBXProject "Chekate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F22C3FD42C96540E001BDC49;
+			packageReferences = (
+				F2644D762C9710DD008CA9FF /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = F22C3FDE2C96540E001BDC49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F22C3FDC2C96540E001BDC49 /* Chekate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F22C3FDB2C96540E001BDC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22C3FE92C96540F001BDC49 /* Preview Assets.xcassets in Resources */,
+				F22C3FE52C96540F001BDC49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F22C3FD92C96540E001BDC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22C3FF32C96588F001BDC49 /* AppRouter.swift in Sources */,
+				F26121072C96C4CC001A704F /* NetworkError.swift in Sources */,
+				F22C3FFB2C968582001BDC49 /* FontSizes.swift in Sources */,
+				F22C3FE32C96540E001BDC49 /* RootView.swift in Sources */,
+				F261210D2C9706BD001A704F /* ResultsScreen.swift in Sources */,
+				F22C40012C968B37001BDC49 /* RezisableIconModifier.swift in Sources */,
+				F22C3FE12C96540E001BDC49 /* ChekateApp.swift in Sources */,
+				F22C40082C96AA2B001BDC49 /* SpeechRecognizer.swift in Sources */,
+				F26121052C96C4A3001A704F /* NetworkCall.swift in Sources */,
+				F22C3FF12C965741001BDC49 /* HomeScreen.swift in Sources */,
+				F22C3FFD2C9689C2001BDC49 /* AppSection.swift in Sources */,
+				F22C3FF92C9683E3001BDC49 /* PaddingModifiers.swift in Sources */,
+				F261210B2C96C66D001A704F /* DiagnosePromptCall.swift in Sources */,
+				F26121092C96C51C001A704F /* NetworkClient.swift in Sources */,
+				F22C40032C968B55001BDC49 /* SectionHeader.swift in Sources */,
+				F22C3FF52C9660F0001BDC49 /* DiagnosticScreen.swift in Sources */,
+				F22C3FFF2C968B03001BDC49 /* CardModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F22C3FEA2C96540F001BDC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F22C3FEB2C96540F001BDC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F22C3FED2C96540F001BDC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chekate/Chekate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chekate/Preview Content\"";
+				DEVELOPMENT_TEAM = VH3FBYKHRR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.cgm.Chekate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F22C3FEE2C96540F001BDC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chekate/Chekate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chekate/Preview Content\"";
+				DEVELOPMENT_TEAM = VH3FBYKHRR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.cgm.Chekate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F22C3FD82C96540E001BDC49 /* Build configuration list for PBXProject "Chekate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22C3FEA2C96540F001BDC49 /* Debug */,
+				F22C3FEB2C96540F001BDC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22C3FEC2C96540F001BDC49 /* Build configuration list for PBXNativeTarget "Chekate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22C3FED2C96540F001BDC49 /* Debug */,
+				F22C3FEE2C96540F001BDC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2644D762C9710DD008CA9FF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2644D7A2C9711AC008CA9FF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2644D762C9710DD008CA9FF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F22C3FD52C96540E001BDC49 /* Project object */;
+}
